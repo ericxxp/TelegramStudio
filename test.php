@@ -90,7 +90,7 @@ class WeatherCommand extends Command
         
     }
 
-    public function execute()
+    public function Traubs()
     {
         $update = $this->getUpdate();
         $message = $this->getMessage();
