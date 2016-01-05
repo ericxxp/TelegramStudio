@@ -19,16 +19,14 @@ object Form1: TForm1
     Width = 832
     Height = 19
     Panels = <>
-    ExplicitLeft = 264
-    ExplicitTop = 472
-    ExplicitWidth = 0
   end
   object Button1: TButton
     Left = 8
-    Top = 8
+    Top = 136
     Width = 75
     Height = 25
     Caption = 'New Bot'
     TabOrder = 1
+    OnClick = Button1Click
   end
 end

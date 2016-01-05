@@ -10,6 +10,7 @@ type
   TForm1 = class(TForm)
     StatusBar1: TStatusBar;
     Button1: TButton;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -22,5 +23,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+ShowMessage('Hello!');
+end;
 
 end.
